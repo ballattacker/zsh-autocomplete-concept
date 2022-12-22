@@ -2,5 +2,7 @@ If you want to try this out, first make sure [fzf](https://github.com/junegunn/f
 ```bash
 # this will put the config in /tmp/zsh
 git clone --recurse-submodules https://github.com/ballattacker/zsh-autocomplete-concept.git /tmp/zsh
+```
+```bash
 env ZDOTDIR=/tmp/zsh zsh
 ```
