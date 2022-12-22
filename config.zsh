@@ -20,6 +20,7 @@ zstyle ':completion:*' accept-exact '*(N)'
 zstyle ':completion:*' use-cache on
 zstyle ':completion:*' cache-path $ZDOTDIR
 HISTFILE=$ZDOTDIR/.zhistory
+[ ! -f "$HISTFILE" ] && touch $HISTFILE
 HISTSIZE=10000
 SAVEHIST=10000
 WORDCHARS=${WORDCHARS//\/[&.;]}                                 # Don't consider certain characters part of the word
