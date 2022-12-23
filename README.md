@@ -10,3 +10,5 @@ git clone --recurse-submodules https://github.com/ballattacker/zsh-autocomplete-
 ```bash
 env ZDOTDIR=/tmp/zsh zsh
 ```
+
+Use `Ctrl` + `h`, `j`, `k`, `l` or `<Up>`, `<Down>`, `<Tab>` to navigate.
